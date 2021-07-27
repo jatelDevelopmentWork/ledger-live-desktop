@@ -73,7 +73,7 @@ const buildTasks = args => [
       if (args.publish) {
         commands.push("--publish", "always");
       } else {
-        commands.push("-c.afterSign='lodash/noop'");
+        // commands.push("-c.afterSign='lodash/noop'");
         commands.push("--publish", "never");
       }
       if (args.n) {
