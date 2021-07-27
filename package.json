@@ -30,6 +30,7 @@
     "nightly": "node ./tools/dist -n -v",
     "release": "node ./tools/dist --publish",
     "ci": "node ./tools/ci.js",
+    "preelectron-pack": "npm run build",
     "test": "jest src",
     "start-electron-webdriver": "node tests/docker-electron-webdriver/start.js",
     "spectron": "jest \"tests/specs/.*\\.spec\\.js\" --maxWorkers=4",

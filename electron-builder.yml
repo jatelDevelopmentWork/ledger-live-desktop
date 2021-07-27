@@ -7,6 +7,8 @@ protocols:
 
 afterSign: scripts/notarize.js
 
+extends: null
+
 mac:
   artifactName: ${name}-${version}-${os}.${ext}
   category: public.app-category.wallet
